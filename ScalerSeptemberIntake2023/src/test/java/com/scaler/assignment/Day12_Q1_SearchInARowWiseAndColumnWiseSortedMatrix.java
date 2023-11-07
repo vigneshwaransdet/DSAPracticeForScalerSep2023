@@ -20,7 +20,7 @@ The minimum value is 2019
  */
 public class Day12_Q1_SearchInARowWiseAndColumnWiseSortedMatrix {
 	// Brute Force:
-	// TC : O(N^2)
+	// TC : O(N*M)
 	// SC : O(1)
 	@Test
 	public void test01() {
