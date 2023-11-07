@@ -19,7 +19,9 @@ The minimum value is 2019
  * @author vigneshwaran
  */
 public class Day12_Q1_SearchInARowWiseAndColumnWiseSortedMatrix {
-	
+	// Brute Force:
+	// TC : O(N^2)
+	// SC : O(1)
 	@Test
 	public void test01() {
 		int[][] A = new int[][] {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
@@ -41,4 +43,6 @@ public class Day12_Q1_SearchInARowWiseAndColumnWiseSortedMatrix {
 		}
 		return -1;
 	}
+	
+	
 }
