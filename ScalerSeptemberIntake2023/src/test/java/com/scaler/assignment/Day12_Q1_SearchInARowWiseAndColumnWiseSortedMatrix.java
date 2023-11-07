@@ -15,7 +15,9 @@ A[2][2] = 3
 2 * 1009 + 2 = 2020
 The minimum value is 2019
  */
-
+/**
+ * @author vigneshwaran
+ */
 public class Day12_Q1_SearchInARowWiseAndColumnWiseSortedMatrix {
 	
 	@Test
